@@ -1,3 +1,4 @@
+
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLabel, QRadioButton, QButtonGroup
 
@@ -18,3 +19,6 @@ main_layout.addWidget(button, alignment=Qt.AlignCenter)
 window.setLayout(main_layout)
 window.show()
 app.exec_()
+
+print("Hola")
+
